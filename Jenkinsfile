@@ -18,11 +18,11 @@ pipeline
                 echo 'Testing the Application'
             }
         }
-        stage('Deploy') 
+        stage('Launch') 
         {
             steps 
             {
-                echo 'Deploying the Application'
+                echo 'Launching the Application'
             }
         }
     }
